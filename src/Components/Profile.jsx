@@ -15,7 +15,7 @@ export default function Profile() {
       {/* Name & Title */}
       <h1 className="text-3xl font-bold text-gray-900">Sourav Kumar</h1>
       <h2 className="text-lg text-gray-600 mb-4">
-          Data Science & AI Enthusiast | Aspiring Data Analyst
+         Data Science & AI Enthusiast | Open to Data & AI/ML Roles
       </h2>
 
       {/* Tagline */}
