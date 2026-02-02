@@ -1,3 +1,69 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;                                          
+@tailwind utilities;
+nav {
+  transition: transform 0.3s ease-in-out;
+}
+
+nav a {
+  transition: color 0.3s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.animate-zoom-in {
+  animation: zoomIn 1s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-blue-400 to-cyan-400;
+  
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #60a5fa;
+  
+  animation: 
+    typing 3.5s steps(40, end) forwards, 
+    blink 0.75s step-end infinite;
+}

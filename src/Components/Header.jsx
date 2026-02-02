@@ -8,7 +8,6 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
 
-  // Enable smooth scroll globally
   useEffect(() => {
     document.documentElement.style.scrollBehavior = "smooth";
   }, []);
