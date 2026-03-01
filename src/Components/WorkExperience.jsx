@@ -4,26 +4,26 @@ const workExperience = [
   {
     title: "Junior Data Analyst",
     company: "Rare Metals and Chemicals",
-    startDate: "Dec 2024",
-    endDate: "Present",
+    startDate: "Feb 2025",
+    endDate: "Feb 2026",
     location: "Ranchi, Jharkhand",
     responsibilities: [
-      "Automating daily production reports using Python & Excel macros, reducing manual effort by 25%.",
-      "Designing interactive Power BI dashboards to monitor yield, material consumption, and batch flow KPIs.",
-      "Collaborating with production teams to identify inefficiencies and implement data-backed improvements.",
+      "Automated daily and monthly production reports using Python and Excel macros, streamlining workflows and reducing manual effort by 25% through script-based data processing.",
+      "Designed interactive dashboards in Excel and Power BI to monitor KPIs like yield, material consumption, and batch-wise flow, enabling real-time insights.",
+      "Partnered with process and production engineering teams to diagnose operational inefficiencies, deploying data-backed strategies that directly enhanced manufacturing output and product quality.",
     ],
-    technologies: ["Python", "Excel Macros", "Power BI", "DAX"],
+    technologies: ["Python", "Excel Macros", "Power BI", "DAX", "Data Analytics"],
   },
   {
     title: "Data Science Intern",
     company: "LearnVista Pvt Ltd",
-    startDate: "Feb 2024",
-    endDate: "Oct 2024",
+    startDate: "July 2024",
+    endDate: "Jan 2025",
     location: "Remote",
     responsibilities: [
-      "Developed ML models for fraud detection and healthcare prediction using Scikit-learn & Pandas.",
-      "Applied NLP & Generative AI tools (ChatGPT, Gemini) for sentiment analysis and automated content generation.",
-      "Visualized trends using Matplotlib, Seaborn, and Power BI to drive data-driven decision-making.",
+      "Engineered and deployed ML models for fraud detection, healthcare prediction, and recommendation systems, utilizing Python, Scikit-learn, and Pandas on complex datasets to drive actionable insights.",
+      "Implemented advanced NLP techniques and generative AI models like ChatGPT and Gemini to automate sentiment analysis, keyword extraction, and scalable prompt-based content generation.",
+      "Developed interactive Power BI dashboards and visualized complex trends using Matplotlib, Seaborn, and Excel to accelerate executive data-driven decision-making.",
     ],
     technologies: [
       "Python",
@@ -32,6 +32,8 @@ const workExperience = [
       "Power BI",
       "Matplotlib",
       "Seaborn",
+      "NLP",
+      "Generative AI"
     ],
   },
 ];
