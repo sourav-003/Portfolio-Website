@@ -8,10 +8,25 @@ import CreditfraudImg from "../assets/CreditfraudImg.png";
 import SmartECGImg from "../assets/SmartECGImg.png";
 import PdfBotImg from "../assets/PdfBotImg.png";
 import SchedulerImg from "../assets/SchedulerImg.png";
+import DdrGeneratorImg from "../assets/DdrGeneratorImg.png";
 
 function Projects() {
   const projects = [
     {
+      title: "AI Structural Diagnostic Report Generator",
+      image: DdrGeneratorImg,
+      description:
+        "A multimodal AI pipeline that cross-references visual inspection PDFs with thermal data to generate strict, engineer-grade JSON diagnostic reports.",
+      tech: ["Python", "Streamlit", "Gemini 3 API", "PyMuPDF", "Pillow"],
+      features: [
+        "Engineered a custom pipeline using PyMuPDF and Pillow to extract, dimensionally filter, and compress embedded PDF images.",
+        "Leveraged Gemini 3 Multimodal API to simultaneously analyze text and photos, automatically flagging visual and thermal discrepancies.",
+        "Enforced strict JSON schema generation at the API level to guarantee machine-readable output and dynamically map evidence galleries.",
+      ],
+      liveLink: "https://ddr-generator-ai-gpyyy2tg57f3djwswyyxhv.streamlit.app/",
+      sourceLink: "https://github.com/sourav-003/ddr-generator-ai",
+    },
+   {
       title: "Intelligent PDF Summarizer & QA Bot",
       image: PdfBotImg,
       description:

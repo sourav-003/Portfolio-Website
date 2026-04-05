@@ -4,8 +4,8 @@ const workExperience = [
   {
     title: "Junior Data Analyst",
     company: "Rare Metals and Chemicals",
-    startDate: "Feb 2025",
-    endDate: "Feb 2026",
+    startDate: "March 2025",
+    endDate: "March 2026",
     location: "Ranchi, Jharkhand",
     responsibilities: [
       "Automated daily and monthly production reports using Python and Excel macros, streamlining workflows and reducing manual effort by 25% through script-based data processing.",
